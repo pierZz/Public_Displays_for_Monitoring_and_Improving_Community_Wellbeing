@@ -1,0 +1,55 @@
+
+@(message: String)
+
+@main("") {
+    <div id="container">
+        <div id="A">
+            <div class="A_Title">
+                <img id="icon" src="assets/images/hearth.png">
+                <h1>Health</h1>
+            </div>
+            <canvas width="500" height="480" ></canvas>
+            <a href="#" id="startButtton" class="myButton">Start!</a>
+            <h3>Do you feel stressed?</h3>
+            <input type='range' value='50' min='0' max='100' id="range" />
+            <h4 id="notmuch">Not much...</h4><h4 id="alot">A lot!</h4>
+            <div style="text-align: center;">
+                <label class="button">
+                    <input type="radio" name="buttongender" />
+                    <span class="outer"><span class="inner"></span></span>
+                    Male
+                </label>
+                <label class="button">
+                    <input type="radio" name="buttongender" />
+                    <span class="outer"><span class="inner"></span></span>
+                    Female
+                </label>
+
+            </div>
+            <div style="text-align: center;">
+                <label class="button">
+                    <input type="radio" name="buttonsmoke" />
+                    <span class="outer"><span class="inner"></span></span>
+                    I smoke
+                </label>
+                <label class="button">
+                    <input type="radio" name="buttonsmoke" />
+                    <span class="outer"><span class="inner"></span></span>
+                    I don't smoke
+                </label>
+
+            </div>
+        </div><div id="B">
+            <div class="A_Title">
+                <img id="icon" src="http://www.press.usi.ch/logo-usi-67540.gif">
+                <h1>USI 4 Health</h1>
+            </div>
+            <div class="canvasContainer">
+                <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
+        <div class="canvasContainer">
+            <canvas id="myChartS" width="400" height="400"></canvas>
+        </div>
+        </div>
+    </div>
+}
