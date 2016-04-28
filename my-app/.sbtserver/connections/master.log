@@ -1,0 +1,7 @@
+New log file opened at Tue Mar 08 15:01:29 CET 2016 by 2025@snipierzzs-mbp.mobile.usilu.net
+Taking next connection to: 51934
+New client attempting to connect on port: 51935-51934
+  Address = /10.62.128.122:51934
+This client on port 51935 has uuid 4fc50a78-2684-43c1-ab13-29135a423650 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-4fc50a78-2684-43c1-ab13-29135a423650
+Taking next connection to: 51934

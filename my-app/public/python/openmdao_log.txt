@@ -1,0 +1,757 @@
+
+
+*********** BEGIN NEW LOG ************** (2016-03-24 13:25:15.899582) PID=7240
+
+
+
+*********** BEGIN NEW LOG ************** (2016-03-25 11:25:49.361261) PID=9163
+
+
+
+*********** BEGIN NEW LOG ************** (2016-03-29 20:08:16.398959) PID=21938
+
+
+
+*********** BEGIN NEW LOG ************** (2016-03-30 00:38:56.460399) PID=22015
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-03 15:41:51.564382) PID=24242
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:16:50.244874) PID=3509
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:17:17.661171) PID=3542
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:18:07.640452) PID=3575
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:18:29.881819) PID=3608
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:18:47.268557) PID=3641
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:19:28.873320) PID=3678
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:22:08.837116) PID=436
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:24:01.268139) PID=481
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:24:26.712788) PID=514
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:26:19.220259) PID=549
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:26:47.028441) PID=582
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:27:44.011553) PID=615
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:28:01.228065) PID=648
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:28:19.002093) PID=681
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 15:50:35.290167) PID=728
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-06 22:24:38.016247) PID=3356
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:07:11.113369) PID=3647
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:08:27.642567) PID=3681
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:11:23.844336) PID=3716
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:13:18.240725) PID=3749
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:14:52.585632) PID=3788
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:15:03.580357) PID=3822
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:16:06.287041) PID=453
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-07 14:16:23.120540) PID=490
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:07:18.337542) PID=1391
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:07:37.363414) PID=1424
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:08:24.525587) PID=1457
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:09:04.260057) PID=1497
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:09:31.003040) PID=1530
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:09:52.329604) PID=1563
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:18:52.495073) PID=1605
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:19:38.154631) PID=1645
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:19:56.423619) PID=1685
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:20:20.958959) PID=1718
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 15:20:34.154037) PID=1751
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 16:15:06.947926) PID=2017
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 16:15:39.266255) PID=2051
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 16:19:55.945542) PID=2088
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-08 16:20:59.993565) PID=2121
+
+Apr 08 16:22:21 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 08 16:22:21 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 08 16:22:21 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:16:39.144073) PID=3342
+
+Apr 09 11:17:29 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:17:29 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:17:29 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:17:37.742391) PID=3375
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:24:24.805052) PID=547
+
+Apr 09 11:24:36 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:24:36 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:24:36 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:25:11.191645) PID=584
+
+Apr 09 11:25:30 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:25:30 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:25:30 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:29:18.353453) PID=630
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:30:21.813853) PID=664
+
+Apr 09 11:30:28 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:30:28 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:30:28 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:30:30.316490) PID=697
+
+Apr 09 11:30:49 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:30:49 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:30:49 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:30:51.250613) PID=730
+
+Apr 09 11:31:04 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:31:04 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:31:04 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:31:22.422070) PID=763
+
+Apr 09 11:31:37 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:31:37 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:31:37 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:32:09.117012) PID=796
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:33:18.008914) PID=831
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:34:22.704447) PID=867
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:35:16.900904) PID=900
+
+Apr 09 11:35:32 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:35:32 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:35:32 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 11:35:35.015329) PID=934
+
+Apr 09 11:36:34 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:36:34 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 11:36:34 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-09 18:04:44.610433) PID=1369
+
+Apr 09 18:04:56 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 18:04:56 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 09 18:04:56 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-10 17:21:58.750157) PID=2096
+
+Apr 10 17:22:46 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 10 17:22:46 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 10 17:22:46 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 00:14:33.783828) PID=2507
+
+Apr 11 00:15:08 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 00:15:08 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 00:15:08 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 00:15:12.157780) PID=2541
+
+Apr 11 00:15:56 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 00:15:56 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 00:15:56 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:36:50.421451) PID=3226
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:38:36.665586) PID=3261
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:39:06.668482) PID=3294
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:39:32.199452) PID=3327
+
+Apr 11 15:39:48 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:39:48 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:39:48 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:39:54.513483) PID=3361
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:40:45.848890) PID=3394
+
+Apr 11 15:41:14 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:41:14 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:41:14 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:43:05.661682) PID=3427
+
+Apr 11 15:43:15 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:43:15 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:43:15 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:43:27.831462) PID=3460
+
+Apr 11 15:43:32 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:43:32 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:43:32 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:43:39.498694) PID=3493
+
+Apr 11 15:43:49 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:43:49 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:43:49 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:45:11.696519) PID=3526
+
+Apr 11 15:45:38 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:45:38 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:45:38 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:58:49.546678) PID=3624
+
+Apr 11 15:59:08 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:59:08 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:59:08 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:59:17.325285) PID=3657
+
+Apr 11 15:59:25 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:59:25 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 15:59:25 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 15:59:33.322057) PID=3690
+
+Apr 11 16:00:14 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 16:00:14 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+Apr 11 16:00:14 E root: Variable 'frame_in' must be an array-like object, but a value of None (<type 'NoneType'>) was specified.
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:02:13.069894) PID=3726
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:04:02.963710) PID=3762
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:07:06.649918) PID=3799
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:09:16.422039) PID=3836
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:10:45.415839) PID=3869
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:19:15.432320) PID=3909
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:20:41.453224) PID=3946
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:21:06.703976) PID=3979
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:22:26.220882) PID=4014
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:23:19.141215) PID=4047
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:24:20.484805) PID=4082
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:25:08.682104) PID=4115
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:31:35.032426) PID=4167
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:33:11.650216) PID=4200
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:33:55.421268) PID=4233
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:37:07.444763) PID=4272
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:38:35.472989) PID=4306
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:38:56.805908) PID=4339
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:39:55.714437) PID=4378
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:40:53.218396) PID=4411
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:41:26.458266) PID=4444
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-11 16:42:10.935609) PID=4477
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:35:46.043963) PID=6867
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:36:28.691276) PID=6901
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:41:27.736329) PID=6979
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:43:52.797920) PID=7094
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:45:52.153764) PID=7131
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:50:17.889084) PID=7171
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:51:02.994268) PID=7205
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:53:46.711049) PID=7238
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:54:21.709305) PID=7271
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 13:54:46.343670) PID=7304
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:00:23.343220) PID=7374
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:05:02.016383) PID=7423
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:05:46.689969) PID=7456
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:08:06.443790) PID=7496
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:09:12.223714) PID=7533
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:10:19.083053) PID=7571
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:11:15.436009) PID=7607
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:13:45.621371) PID=7650
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:14:53.695075) PID=7688
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:16:24.575722) PID=7724
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 14:16:47.755274) PID=7760
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-12 19:12:48.857819) PID=8013
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-13 12:56:13.838513) PID=8571
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-13 12:58:07.303486) PID=8612
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-13 13:25:43.578743) PID=8696
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-13 13:35:47.552921) PID=8764
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-13 15:27:12.297946) PID=9023
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-13 15:27:45.103432) PID=9058
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-13 15:47:10.137929) PID=9175
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:05:18.011301) PID=1176
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:05:50.977626) PID=1211
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:09:02.434384) PID=1277
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:12:11.598953) PID=1314
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:15:17.239364) PID=1352
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:16:29.848072) PID=1385
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:17:00.929685) PID=1418
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:17:30.239591) PID=1451
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:17:58.017715) PID=1484
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:18:44.135443) PID=1517
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 14:19:24.100252) PID=1550
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:15:56.207405) PID=1714
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:17:19.134881) PID=1753
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:18:06.555564) PID=1792
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:19:37.436784) PID=1828
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:20:05.549983) PID=1861
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:21:10.521304) PID=1900
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:21:47.150776) PID=1933
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:24:58.934305) PID=1970
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:25:47.415862) PID=2006
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:26:25.609658) PID=2040
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:27:49.713886) PID=2082
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:30:05.413179) PID=2123
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:34:38.448600) PID=2165
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:39:51.503474) PID=2213
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:41:26.342969) PID=2249
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:43:04.229381) PID=2290
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-18 16:47:52.161761) PID=2326
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-19 19:57:09.644614) PID=3347
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-19 19:58:09.194322) PID=3382
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-20 13:47:15.955380) PID=3651
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-20 13:58:43.376183) PID=3741
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-20 14:01:19.290278) PID=3784
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-20 14:17:53.566397) PID=3878
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-20 14:21:34.252086) PID=3924
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-20 14:44:55.502980) PID=4042
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-21 13:47:21.401408) PID=8735
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-22 13:12:48.264060) PID=9763
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-22 13:29:09.400007) PID=9873
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-22 14:05:17.894350) PID=10168
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-25 14:51:45.056386) PID=17620
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-25 16:45:52.162286) PID=18280
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-25 16:46:28.357346) PID=18313
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-25 17:13:49.449677) PID=18375
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-25 22:16:14.200674) PID=18716
+
+
+
+*********** BEGIN NEW LOG ************** (2016-04-26 14:29:31.953670) PID=560
+
