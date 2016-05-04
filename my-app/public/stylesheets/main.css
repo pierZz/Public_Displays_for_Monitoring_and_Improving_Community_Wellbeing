@@ -1,5 +1,5 @@
 #container{
-    background-color: #7FB5B5;
+    background-color: #FF9944;
     height: 1040px;
     width: 1920px;
     font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
@@ -7,7 +7,7 @@
 }
 
 #A{
-    background-color: #7FB5B5;
+    background-color: #FF9944;
     height: 1040px;
     width: 600px;
     display: inline-block;
@@ -17,7 +17,7 @@
     height: 117px;
     border-bottom: 3px dashed #fff ;
     width: 600px;
-    background-color: #7FB5B5;
+    background-color: #FF9944;
     display: block;
 }
 #A >.A_Title >img {
@@ -78,7 +78,7 @@ h4{
     text-align: right;
 }
 #B{
-    background-color: #7FB5B5;
+    background-color: #FF9944;
     height: 1040px;
     width: 1317px;
     border-left: 3px dashed #fff ;

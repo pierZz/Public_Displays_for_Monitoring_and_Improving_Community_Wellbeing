@@ -1,3 +1,4 @@
+var health = undefined;
 /*
  *  Health Class
  */
@@ -9,7 +10,9 @@ function Health(){
     this.ctx;
     this.snap;
     this.startVideo;
-
+    this.timer;
+    this.interval;
+    this.startMs;
     this.initialize();
 }
 
@@ -19,19 +22,32 @@ function Health(){
  * Initializes all variables
  */
 Health.prototype.initialize = function() {
-    this.my = undefined;
-    this.ws = new WebSocket("ws://localhost:8082/");
-    this.ws.onopen = function() {
-        console.log("connected");
-    }
+    this.ws = undefined;
     var that = this;
-    this.ws.onmessage = function(e) {
-        reader = new FileReader();
-        reader.onload = function(event) {
-            that.my = JSON.parse(reader.result);
+    this.timer = undefined;
+    this.connectToWs = function(){
+        that.ws = new WebSocket("ws://10.40.1.102:8082/");
+        that.ws.onopen = function() {
+            console.log("connected");
         }
-        reader.readAsText(e.data);
-    };
+        that.ws.onmessage = function(e) {
+            reader = new FileReader();
+            reader.onload = function(event) {
+                that.my = JSON.parse(reader.result);
+            }
+            reader.readAsText(e.data);
+        };
+        that.ws.onclose = function(){
+            that.ws.close();
+            that.my = undefined;
+        };
+        that.timer = 5000;
+        var d = new Date();
+        that.startMs = d.getTime();
+        that.interval = setInterval(that.sendSnap, 180);
+
+    }
+
     /* ~~Cross Platforms Stuff~~ */
     window.URL = window.URL || window.webkitURL;
     navigator.getUserMedia  = navigator.getUserMedia || navigator.webkitGetUserMedia ||
@@ -44,13 +60,9 @@ Health.prototype.initialize = function() {
     this.img =document.querySelector("img");
 
     this.snap = function() {
-        that.canvas.width = that.canvas.width;
         that.ctx.drawImage(that.video, -100, 0);
-        var image = that.canvas.toDataURL("image/jpeg",1.0);
-        that.ws.send(image);
         if(that.my!=undefined) {
             that.ctx.beginPath();
-
             that.ctx.rect(that.my['square'][0], that.my['square'][1], that.my['square'][2], that.my['square'][3]);
             that.ctx.lineWidth="3";
             that.ctx.strokeStyle="#2989d8";
@@ -60,11 +72,23 @@ Health.prototype.initialize = function() {
             that.ctx.font ="25pt Calibri";
             var string = (~~parseFloat(that.my['bpm']));
             that.ctx.fillText(string, 440, 445);
-
         }
     }
+    this.sendSnap = function(){
+        var d = new Date();
+
+        if(d.getTime()-that.startMs< that.timer){
+            var image = that.canvas.toDataURL("image/jpeg",1.0);
+            that.ws.send(image);
+        }else{
+            clearInterval(that.interval);
+            that.ws.close();
+        }
+
+    }
+
     this.startVideo = function() {
-        setInterval(that.snap, 180);
+        setInterval(that.snap, 40);
         // Not showing vendor prefixes or code that works cross-browser.
         navigator.getUserMedia({video: true}, function(stream) {
             that.video.src = window.URL.createObjectURL(stream);
@@ -74,9 +98,8 @@ Health.prototype.initialize = function() {
     }
 }
 document.onreadystatechange = function() {
-    var health = new Health();
+    health = new Health();
     health.startVideo();
-
 
     var data = {
         labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
@@ -104,7 +127,7 @@ document.onreadystatechange = function() {
                 data: [65, 59, 80, 81, 56, 55, 40],
 
                 // String - If specified, binds the dataset to a certain y-axis. If not specified, the first y-axis is used.
-                yAxisID: "y-axis-0",
+                yAxisID: "y-axis-0"
             },
             {
                 label: "Male",

@@ -24,6 +24,8 @@ class SimpleEcho(WebSocket):
         self.sendMessage(json.dumps(d));
 
     def handleConnected(self):
+        global App
+        App = getPulseApp()
         print self.address, 'connected'
 
     def handleClose(self):
