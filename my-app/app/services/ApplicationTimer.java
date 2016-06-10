@@ -22,7 +22,8 @@ import play.inject.ApplicationLifecycle;
  * application's {@link ApplicationLifecycle} to register a stop hook.
  */
 @Singleton
-public class ApplicationTimer {
+public class
+        ApplicationTimer {
 
     private final Clock clock;
     private final ApplicationLifecycle appLifecycle;

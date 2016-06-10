@@ -1,0 +1,48 @@
+Test Hours: 16:30-17:00
+
+Number of People Tested: 							20
+Location: 											BB - Open Space
+Number of males: 									11
+Number of females: 									1
+Number of tests without gender:						8
+Number of smokers: 									5
+Number of not smokers: 								6
+Number of tests without gender:						9
+Number of testers with higher stress lvls:			7
+Number of testers with lower stress lvls:			4
+Number of testers without stress lvls:				9
+
+Global AVG:											65.15
+AVG HR for males:									64.09
+AVG HR for females:									61.00
+AVG HR for smokers:									62.80
+AVG HR for not smokers:								65.33
+
+
+MySQL Data for the day:
++-----+-----+--------+--------+--------+------------+
+| id  | bpm | stress | gender | smoker | date       |
++-----+-----+--------+--------+--------+------------+
+| 151 |  64 |     68 |      0 |      1 | 2016-05-31 |
+| 152 |  60 |     66 |      0 |      0 | 2016-05-31 |
+| 153 |  61 |     50 |      0 |      1 | 2016-05-31 |
+| 154 |  67 |     50 |      0 |      0 | 2016-05-31 |
+| 155 |  78 |     50 |   NULL |   NULL | 2016-05-31 |
+| 156 |  73 |     66 |      0 |      1 | 2016-05-31 |
+| 157 |  62 |     50 |      0 |      1 | 2016-05-31 |
+| 158 |  69 |     50 |   NULL |   NULL | 2016-05-31 |
+| 159 |  78 |     50 |   NULL |   NULL | 2016-05-31 |
+| 160 |  62 |     50 |   NULL |   NULL | 2016-05-31 |
+| 161 |  60 |     59 |      0 |   NULL | 2016-05-31 |
+| 162 |  62 |     30 |   NULL |   NULL | 2016-05-31 |
+| 163 |  62 |     34 |      0 |      0 | 2016-05-31 |
+| 164 |  61 |     50 |      1 |      0 | 2016-05-31 |
+| 165 |  62 |     50 |   NULL |   NULL | 2016-05-31 |
+| 166 |  62 |      6 |   NULL |   NULL | 2016-05-31 |
+| 167 |  69 |     24 |      0 |      1 | 2016-05-31 |
+| 168 |  63 |     74 |      0 |      1 | 2016-05-31 |
+| 169 |  64 |     59 |   NULL |   NULL | 2016-05-31 |
+| 170 |  64 |     67 |      0 |      0 | 2016-05-31 |
++-----+-----+--------+--------+--------+------------+
+
+
