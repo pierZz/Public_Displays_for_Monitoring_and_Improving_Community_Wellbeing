@@ -131,7 +131,7 @@ Health.prototype.initialize = function() {
         data.append('smoker', smoker);
         data.append('stress', stress);
 
-        createCORSRequest('POST', 'http://127.0.0.1:3000/users', data);
+        createCORSRequest('POST', 'http://10.40.1.102:3000/users', data);
         that.bpm = undefined;
         that.bpms =[];
         canvasDrawOnTop.initialize();
@@ -140,7 +140,7 @@ Health.prototype.initialize = function() {
         clearInterval(that.interval);
         document.getElementById("myForm").innerHTML =that.form;
         clearTimeout(that.timeoutID);
-        getGrapshDataAndFill(10);
+        getGrapshDataAndFill(20);
     };
 
     /* ~~Cross Platforms Stuff~~ */
@@ -149,6 +149,7 @@ Health.prototype.initialize = function() {
     navigator.mozGetUserMedia || navigator.msGetUserMedia;
     window.requestFileSystem  = window.requestFileSystem || window.webkitRequestFileSystem;
     this.video = document.createElement("video");
+    this.video.autoplay = true;
     this.canvas = document.getElementById('face');
     this.ctx = this.canvas.getContext('2d');
 
@@ -167,6 +168,8 @@ Health.prototype.initialize = function() {
 
         if(d.getTime()-that.startMs< that.timer){
             var image = that.canvas.toDataURL("image/jpeg",1.0);
+	    var sec = Math.floor((d.getTime()-that.startMs)/1000);
+            canvasDrawOnTop.text ="Stand still for " +(5-sec)+ " seconds";
             that.ws.send(image);
         }else{
             document.getElementById("myForm").innerHTML =that.form;
@@ -202,7 +205,7 @@ document.onreadystatechange = function() {
     health.startVideo();
     $( "#myForm" ).fadeOut(500);
     $( "#devSignature" ).fadeIn(500);
-    getGrapshDataAndFill(10);
+    getGrapshDataAndFill(20);
 
 };
 
@@ -309,8 +312,15 @@ function set_graphs(arrays, colors, names, label){
     var chart = document.getElementById("myChart").getContext('2d');
     var options = {
         responsive: false,
-        maintainAspectRatio: false
-    }
+        maintainAspectRatio: false,
+  	scales: {
+    		yAxes: [{
+      		scaleLabel: {
+       		display: true,
+        	labelString: 'Heart Rate'
+      }
+    }]
+    }}
     var myBarChart = new Chart(chart, {
         type: 'line',
         data: data,
@@ -343,52 +353,52 @@ function getGrapshDataAndFill(days){
     jQuery.support.cors = true;
     $.ajax({
         method: "GET",
-        url: "http://127.0.0.1:3000/users/"+days,
+        url: "http://10.40.1.102:3000/users/"+days,
         dataType: 'json',
         crossDomain: true
     }).done(function( msg ) {
         graphData.push(msg.bpm);
-        graphLable.push("Average Hearth Rate");
+        graphLable.push("Average Heart Rate");
         graphColors.push("rgba(75,192,192,1)");
         graphDays = msg.days;
         $.ajax({
             method: "GET",
-            url: "http://127.0.0.1:3000/users/male/"+days,
+            url: "http://10.40.1.102:3000/users/male/"+days,
             dataType: 'json',
             crossDomain: true
         }).done(function( msg ) {
             graphData.push(msg.bpm);
-            graphLable.push("Average Hearth Rate For Male");
+            graphLable.push("Average Heart Rate For Male");
             graphColors.push("rgba(0,0,255,1)");
 
             $.ajax({
                 method: "GET",
-                url: "http://127.0.0.1:3000/users/female/"+days,
+                url: "http://10.40.1.102:3000/users/female/"+days,
                 dataType: 'json',
                 crossDomain: true
             }).done(function( msg ) {
                 graphData.push(msg.bpm);
                 graphColors.push("rgba(255,0,0,1)");
-                graphLable.push("Average Hearth Rate For Female");
+                graphLable.push("Average Heart Rate For Female");
                 $.ajax({
                     method: "GET",
-                    url: "http://127.0.0.1:3000/users/smoker/"+days,
+                    url: "http://10.40.1.102:3000/users/smoker/"+days,
                     dataType: 'json',
                     crossDomain: true
                 }).done(function( msg ) {
                     graphData.push(msg.bpm);
                     graphColors.push("rgba(255,255,0,1)");
-                    graphLable.push("Average Hearth Rate For Smokers");
+                    graphLable.push("Average Heart Rate For Smokers");
                     $.ajax({
                         method: "GET",
-                        url: "http://127.0.0.1:3000/users/notsmoker/"+days,
+                        url: "http://10.40.1.102:3000/users/notsmoker/"+days,
                         dataType: 'json',
                         crossDomain: true
                     }).done(function( msg ) {
                         graphData.push(msg.bpm);
                         graphColors.push("rgba(0,255,0,1)");
 
-                        graphLable.push("Average Hearth Rate Not Smokers");
+                        graphLable.push("Average Heart Rate Not Smokers");
                         set_graphs(graphData,graphColors,graphLable,graphDays);
                     });
                 });

@@ -20,7 +20,7 @@
     background-color: #FF9944;
     display: block;
 }
-#A >.A_Title >#icon {
+#B >.A_Title >#icon {
     height: 100px;
     width: 100px;
     margin: 10px 25px 10px 50px;
@@ -56,6 +56,9 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 10px;
+}
+#claims{
+    margin-left:150px;
 }
 
 h3{

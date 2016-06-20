@@ -2,18 +2,12 @@
 @(message: String)
 
 @main("") {
-    <div id="container">
+    <div id="container" onselectstart="return false;" ondragstart="return false;"  >
         <div id="A">
             <div class="A_Title">
-
-                <img id="icon" src="assets/images/hearth.png">
+		<h1>USI Health</h1>
             </div>
             <canvas width="500" height="480" id="face" ></canvas>
-            @*<p> Stand still in front of the camera and press Start!*@
-            @*</p>*@
-            @*<p>*@
-                @*After 5 seconds you can fill the form and Submit it!*@
-            @*</p>*@
             <a id="startButtton" class="myButton" onclick="health.connectToWs()">Start!</a>
             <form id="myForm">
 
@@ -24,11 +18,12 @@
 
             <div class="A_Title">
 
-                <h1>USI 4 Health</h1>
+                <img id="icon" src="assets/images/hearth.png">
             </div>
             <div class="canvasContainer" id="canvasGraph">
                 <canvas id="myChart" width="1200" height="850"></canvas>
             </div>
+	    <p id="claims"> The system claims under no circumstances to be a replacement for established medical HR measuring methods and it is simply a research project.</p>
         </div>
     </div>
 }

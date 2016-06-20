@@ -16,7 +16,7 @@ POST        /addUser                controllers.HealtController.addUser()
 
 GET         /users               controllers.HealtController.getUsers()
 
-GET         /healt               controllers.HealtController.index()
+GET         /health               controllers.HealtController.index()
 
 
 GET         /graphData           controllers.HealtController.graphData()
